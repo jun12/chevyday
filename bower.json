@@ -1,0 +1,11 @@
+{
+  "name": "zeptojs",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "zeptojs": "~1.1.2",
+    "reqirejs": "~2.1.9"
+  },
+  "devDependencies": {}
+}
