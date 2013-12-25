@@ -1,11 +1,11 @@
 {
-  "name": "zeptojs",
+  "name": "touchapp",
   "version": "0.0.0",
   "dependencies": {
-    // "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
-    "zeptojs": "~1.1.2",
-    "reqirejs": "~2.1.9"
+    "quojs": "~2.3.6",
+    "reqirejs": "~2.1.9",
+    "bootstrap": "~3.0.3"
   },
   "devDependencies": {}
 }
