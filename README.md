@@ -1,4 +1,5 @@
 touchapp
 ========
 
-touch app with zepto.js
+* yeoman framework
+* zepto.js framework
