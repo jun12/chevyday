@@ -5,7 +5,9 @@
     "jquery": "~1.10.2",
     "quojs": "~2.3.6",
     "reqirejs": "~2.1.9",
-    "bootstrap": "~3.0.3"
+    "bootstrap": "~3.0.3",
+    "Swipe": "~2.0.0",
+    "shake.js": "~1.1.0"
   },
   "devDependencies": {}
 }

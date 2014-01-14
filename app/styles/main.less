@@ -14,3 +14,154 @@
 // @import "../bower_components/bootstrap/less/tables.less";
 // @import "../bower_components/bootstrap/less/forms.less";
 // @import "../bower_components/bootstrap/less/buttons.less";
+body {
+	background: url("../images/bodyBg.jpg") center center;
+	background-size:132px 45px;
+}
+#all{
+	overflow: hidden;
+}
+
+#logo{
+	.size(387px/2,54px/2);
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	background: url("../images/logo.png") no-repeat ;
+	background-size: contain;
+}
+#flower{
+	.size(403px/2,608px/2);
+	position: absolute;
+	background: url("../images/flower.png") no-repeat;
+	background-size: contain;
+}
+#body-center {
+	.size(100%,80px+298px/2+37px/2);
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	margin-top:-124px;
+}
+
+#toptips {
+	.size(347px/2,136px/2);
+	top: -70px;
+	position: absolute;
+	background: url("../images/tips.png") no-repeat;
+	background-size: contain;
+	left: 50%;
+	margin-left:-347px/4;
+}
+
+#resizeBtn {
+	.size(363px/2,80px/2);
+	position: absolute;
+	background: url("../images/resizebtn.png") no-repeat;
+	background-size: contain;
+	left: 50%;
+	margin-left:-363px/4;
+	bottom: -80px;
+}
+#car {
+	width: 100%;
+	height: 80px;
+  float: left;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+	top:149px;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  &>div:nth-child(1) {
+  	.size(254px,80px);
+  	float: left;
+  	position: relative;
+		background: url("../images/car_1.png") no-repeat center center;
+		background-size: contain;
+
+  }
+  &>div:nth-child(2) {
+  	.size(254px,80px);
+  	float: left;
+  	position: relative;
+		background: url("../images/car_1.png") no-repeat center center;
+		background-size: contain;
+  }
+  &>div:nth-child(3) {
+  	.size(254px,80px);
+  	float: left;
+  	position: relative;
+		background: url("../images/car_1.png") no-repeat center center;
+		background-size: contain;
+  }
+}
+
+#upload {
+	.size(100%,298px/2);
+	position: absolute;
+	top: 0px;
+	border-radius: 50px;
+	overflow: hidden;
+	.translate3d(0,0,0);
+	&>div:first-child{
+		.size(231px/2,298px/2);
+		left: 50%;
+		margin-left:-298px/4;
+		position: absolute;
+		background: url("../images/circle.png") no-repeat;
+		background-size: contain;
+		z-index: 80;
+	}
+	&>div:last-child{
+		.size(202px/2,202px/2);
+		position: absolute;
+		left: 50%;
+		margin-left:-67px;
+		top: 7px;
+		background: url("../images/uploadfilter.png") no-repeat;
+		background-size: contain;
+		z-index: 50;
+	}
+}
+
+#uploadImage {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	z-index: 60;
+	left: 50%;
+	margin-left:-67px;
+	top: 7px;
+	border-radius: 50px;
+}
+
+#fileInput{
+	.size(202px/2,202px/2);
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	margin-left:-67px;
+	top: 7px;
+	filter:alpha(opacity=0); /*IE滤镜，透明度50%*/
+	-moz-opacity:0; /*Firefox私有，透明度50%*/
+	opacity:0;/*其他，透明度50%*/
+}
+#tips {
+	.size(371px/2,37px/2);
+	position: absolute;
+	left: 50%;
+	margin-left:-371px/4;
+	background: url("../images/chioce.png") no-repeat;
+	background-size: contain;
+	bottom: -20px;
+}
+.picrotate {
+	.transition(all  .5s ease-out); 
+}
+.carMove{
+	.transition(margin-left  1s ease-out); 
+}

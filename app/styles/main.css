@@ -539,4 +539,166 @@ address {
   font-style: normal;
   line-height: 1.428571429;
 }
+body {
+  background: url("../images/bodyBg.jpg") center center;
+  background-size: 132px 45px;
+}
+#all {
+  overflow: hidden;
+}
+#logo {
+  width: 193.5px;
+  height: 27px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: contain;
+}
+#flower {
+  width: 201.5px;
+  height: 304px;
+  position: absolute;
+  background: url("../images/flower.png") no-repeat;
+  background-size: contain;
+}
+#body-center {
+  width: 100%;
+  height: 247.5px;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  margin-top: -124px;
+}
+#toptips {
+  width: 173.5px;
+  height: 68px;
+  top: -70px;
+  position: absolute;
+  background: url("../images/tips.png") no-repeat;
+  background-size: contain;
+  left: 50%;
+  margin-left: -86.75px;
+}
+#resizeBtn {
+  width: 181.5px;
+  height: 40px;
+  position: absolute;
+  background: url("../images/resizebtn.png") no-repeat;
+  background-size: contain;
+  left: 50%;
+  margin-left: -90.75px;
+  bottom: -80px;
+}
+#car {
+  width: 100%;
+  height: 80px;
+  float: left;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  top: 149px;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div:nth-child(1) {
+  width: 254px;
+  height: 80px;
+  float: left;
+  position: relative;
+  background: url("../images/car_1.png") no-repeat center center;
+  background-size: contain;
+}
+.swipe-wrap > div:nth-child(2) {
+  width: 254px;
+  height: 80px;
+  float: left;
+  position: relative;
+  background: url("../images/car_1.png") no-repeat center center;
+  background-size: contain;
+}
+.swipe-wrap > div:nth-child(3) {
+  width: 254px;
+  height: 80px;
+  float: left;
+  position: relative;
+  background: url("../images/car_1.png") no-repeat center center;
+  background-size: contain;
+}
+#upload {
+  width: 100%;
+  height: 149px;
+  position: absolute;
+  top: 0px;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+#upload > div:first-child {
+  width: 115.5px;
+  height: 149px;
+  left: 50%;
+  margin-left: -74.5px;
+  position: absolute;
+  background: url("../images/circle.png") no-repeat;
+  background-size: contain;
+  z-index: 80;
+}
+#upload > div:last-child {
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  left: 50%;
+  margin-left: -67px;
+  top: 7px;
+  background: url("../images/uploadfilter.png") no-repeat;
+  background-size: contain;
+  z-index: 50;
+}
+#uploadImage {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  z-index: 60;
+  left: 50%;
+  margin-left: -67px;
+  top: 7px;
+  border-radius: 50px;
+}
+#fileInput {
+  width: 101px;
+  height: 101px;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  margin-left: -67px;
+  top: 7px;
+  filter: alpha(opacity=0);
+  /*IE滤镜，透明度50%*/
+  -moz-opacity: 0;
+  /*Firefox私有，透明度50%*/
+  opacity: 0;
+  /*其他，透明度50%*/
+}
+#tips {
+  width: 185.5px;
+  height: 18.5px;
+  position: absolute;
+  left: 50%;
+  margin-left: -92.75px;
+  background: url("../images/chioce.png") no-repeat;
+  background-size: contain;
+  bottom: -20px;
+}
+.picrotate {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.carMove {
+  -webkit-transition: margin-left 1s ease-out;
+  transition: margin-left 1s ease-out;
+}
 /*# sourceMappingURL=/styles/main.css.map */

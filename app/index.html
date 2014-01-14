@@ -15,10 +15,36 @@
     <!-- endbuild -->
   </head>
   <body>
+    <div id="all">
+      <div id="logo"></div>
+      <div id="flower"></div>
+      <div id="body-center">
+        <div id='car' class='swipe'>
+          <div class='swipe-wrap'>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div id="upload">
+          <div id="circle"></div>
+          <input type="file" name="lname" id="fileInput"/>
+          <canvas id="uploadImage" ondragstart="return false" width="100" height="100"></canvas>
+          <div id="uploadBtn"></div>
+        </div>
+        <div id="tips"></div>
+      </div>
+    </div>
 
 
     <!-- build:js scripts/main.js -->
     <script src="bower_components/quojs/quo.js"></script> 
+    <script src="bower_components/shake.js/shake.js"></script>
+    <script src="bower_components/Swipe/swipe.js"></script>
+    <script src="scripts/hammer.min.js"></script>
+
+    <script src="scripts/hammer.fakemultitouch.js"></script>
+    <script src="scripts/hammer.showtouches.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
